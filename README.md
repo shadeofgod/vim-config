@@ -6,7 +6,7 @@ Use gitmodule and minpack as plugin manager.
 
 ## Usage
 
-```
+```sh
 git clone https://github.com/shadeofgod/vim-config.git --recursive
 
 cd vim-config
