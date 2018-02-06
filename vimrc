@@ -37,7 +37,7 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 " additional plugins
 call minpac#add('editorconfig/editorconfig-vim')
-call minpac#add('Valloric/YouCompleteMe')
+call minpac#add('ervandew/supertab')
 call minpac#add('joshdick/onedark.vim', {'type': 'opt'})
 
 

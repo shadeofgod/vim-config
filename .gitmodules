@@ -7,6 +7,6 @@
 [submodule "pack/minpac/start/editorconfig-vim"]
 	path = pack/minpac/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "pack/minpac/start/YouCompleteMe"]
-	path = pack/minpac/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "pack/minpac/start/supertab"]
+	path = pack/minpac/start/supertab
+	url = https://github.com/ervandew/supertab.git
