@@ -43,7 +43,6 @@ let g:SuperTabRetainCompletionType=2
 let g:SuperTabDefaultCompletionType="<C-X><C-P>"
 
 " To install or update plugins:
-
 " call minpac#clean()
 " call minpac#update()
 
