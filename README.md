@@ -1,6 +1,6 @@
-# Persnalized Vim Config
+# Vim Config
 
-Simple configuration file to make vim a decent editor.
+A simple configuration to make vim a decent light weight editor.
 
 Use gitmodule and minpack as plugin manager.
 
