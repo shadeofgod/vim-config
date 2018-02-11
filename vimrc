@@ -22,8 +22,6 @@ set incsearch
 set ignorecase
 set smartcase
 
-
-
 "----------------------------------------------
 "------------------- PLUGIN -------------------
 "----------------------------------------------
@@ -42,10 +40,13 @@ call minpac#add('joshdick/onedark.vim', {'type': 'opt'})
 
 
 " Plugin settings here.
+let g:SuperTabRetainCompletionType=2
+let g:SuperTabDefaultCompletionType="<C-X><C-P>"
 
 " To install or update plugins:
+
 " call minpac#clean()
-call minpac#update()
+" call minpac#update()
 
 
 "----------------------------------------------
