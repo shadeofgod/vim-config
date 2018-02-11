@@ -21,6 +21,16 @@ set incsearch
 set ignorecase
 set smartcase
 
+" To always display status line
+set laststatus=2
+
+" To make backspace work like most other programs
+set backspace=2
+
+" To have good performance
+set lazyredraw
+set ttyfast
+
 "----------------------------------------------
 "------------------- PLUGIN -------------------
 "----------------------------------------------
@@ -35,6 +45,7 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 " additional plugins
 call minpac#add('editorconfig/editorconfig-vim')
 call minpac#add('ervandew/supertab')
+call minpac#add('itchyny/lightline.vim.git')
 call minpac#add('joshdick/onedark.vim', {'type': 'opt'})
 
 
@@ -59,6 +70,9 @@ set termguicolors
 
 " Colorscheme
 let g:onedark_termcolors=256
+let g:lightline = {
+\ 'colorscheme': 'onedark',
+\ }
 colorscheme onedark
 
 
