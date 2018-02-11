@@ -3,7 +3,6 @@
 "----------------------------------------------
 " To display line number
 set number
-set relativenumber
 
 " To highlight current line
 set cursorline
