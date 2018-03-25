@@ -2,7 +2,7 @@
 
 A simple configuration to make vim a decent light weight editor.
 
-Use gitmodule and minpack as plugin manager.
+Use gitmodule and [minpack](https://github.com/k-takata/minpac) as plugin manager.
 
 ## Usage
 
