@@ -31,6 +31,12 @@ set backspace=2
 set lazyredraw
 set ttyfast
 
+" To find file
+set path=$PWD/**
+set wildmenu
+set wildmode=list:longest,full
+set mouse=a
+
 "----------------------------------------------
 "------------------- PLUGIN -------------------
 "----------------------------------------------
