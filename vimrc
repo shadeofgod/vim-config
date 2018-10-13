@@ -13,7 +13,9 @@ set encoding=utf-8
 
 " To set default tab size
 set softtabstop=4
-set smarttab
+set tabstop=4
+set expandtab
+set autoindent
 
 " To set search behavior
 set hlsearch
